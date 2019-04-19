@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  background-image: linear-gradient(to top , #f9c583 , lightyellow);
 }
 
 .App-logo {
@@ -21,6 +23,51 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.img{
+  display: block;
+}
+
+.txtname{
+  color:#e94923;
+  font-size: 2em;
+  font-weight: bold;
+  display: block !important;
+  padding-top: 10px;
+}
+
+.app-left{
+  border-right: 2px dotted #e74d0f;
+}
+.app-title{
+  display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #db5748;
+    padding: 10px;
+}
+
+.app-content{
+  
+  text-align: left;
+    display: block;
+    color: #c0520f;
+    padding-left:20px;
+    padding-right:20px;  
+}
+
+.container-fluid{
+  padding: 20px !important;
+}
+
+.fa{
+  font-size: 20px;
+  padding-right: 10px;
+
 }
 
 @keyframes App-logo-spin {
